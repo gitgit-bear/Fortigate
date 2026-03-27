@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="100%" stop-color="#0b1120" />
+    </linearGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="logo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="180" cy="120" r="220" fill="#0e7490" fill-opacity="0.18" />
+  <circle cx="1080" cy="60" r="220" fill="#0ea5e9" fill-opacity="0.15" />
+  <rect x="84" y="84" width="1032" height="462" rx="24" fill="#0f172a" stroke="#1e293b" />
+  <rect x="130" y="136" width="84" height="84" rx="18" fill="#020617" />
+  <rect x="148" y="154" width="38" height="7" rx="3.5" fill="url(#logo)" />
+  <rect x="148" y="168" width="28" height="7" rx="3.5" fill="url(#logo)" />
+  <rect x="148" y="182" width="20" height="7" rx="3.5" fill="url(#logo)" />
+  <path d="M188 166l13 13-13 13" fill="none" stroke="#67e8f9" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="234" y="190" fill="#67e8f9" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">
+    FortiTrace IR
+  </text>
+  <text x="130" y="270" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700">
+    FortiTrace IR
+  </text>
+  <text x="130" y="320" fill="#67e8f9" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="600">
+    FortiGate DFIR Investigation and Reporting Platform
+  </text>
+  <text x="130" y="368" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="27">
+    Attack Timeline ? Keyword Story ? Management Dashboard ? SIEM Export
+  </text>
+  <path d="M130 406h940" stroke="url(#line)" stroke-width="3" />
+  <text x="130" y="462" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="24">
+    Built for SOC, IR teams, MSSP, and enterprise security operations
+  </text>
+  <text x="130" y="500" fill="#93c5fd" font-family="Segoe UI, Arial, sans-serif" font-size="20">
+    Investigation speed and reporting clarity in one workflow
+  </text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0b1220"/>
+  <rect x="14" y="14" width="1252" height="692" rx="14" fill="#111b2f" stroke="#334155"/>
+  <rect x="34" y="34" width="1212" height="48" rx="10" fill="#16263f"/>
+  <text x="50" y="64" fill="#e2e8f0" font-size="18" font-family="Segoe UI, Arial">FortiGate Incident Workbench Professional</text>
+  <text x="812" y="64" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial">Mode: traffic_forward | IOC: 12 | Lines: 25319 | Parse: 98.7%</text>
+
+  <rect x="34" y="94" width="290" height="592" rx="10" fill="#17243a"/>
+  <text x="50" y="124" fill="#93c5fd" font-size="16" font-family="Segoe UI, Arial">Analysis Controls</text>
+  <rect x="50" y="138" width="258" height="38" rx="6" fill="#0f172a" stroke="#334155"/>
+  <text x="58" y="162" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">Path: C:\cases\fortigate\traffic.log</text>
+  <rect x="50" y="186" width="258" height="34" rx="6" fill="#0f172a" stroke="#334155"/>
+  <text x="58" y="208" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">Log Mode: Auto Detect</text>
+  <rect x="50" y="230" width="258" height="34" rx="6" fill="#0f172a" stroke="#334155"/>
+  <text x="58" y="252" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">Keyword: powershell</text>
+  <rect x="50" y="278" width="124" height="34" rx="6" fill="#2563eb"/><text x="83" y="300" fill="#fff" font-size="13" font-family="Segoe UI, Arial">Analyze</text>
+  <rect x="184" y="278" width="124" height="34" rx="6" fill="#334155"/><text x="225" y="300" fill="#fff" font-size="13" font-family="Segoe UI, Arial">Export</text>
+
+  <rect x="340" y="94" width="906" height="42" rx="10" fill="#16263f"/>
+  <rect x="356" y="102" width="140" height="26" rx="6" fill="#1e3a8a"/><text x="372" y="120" fill="#fff" font-size="12" font-family="Segoe UI, Arial">Overview Report</text>
+  <rect x="504" y="102" width="124" height="26" rx="6" fill="#1e293b"/><text x="518" y="120" fill="#cbd5e1" font-size="12" font-family="Segoe UI, Arial">High-Risk Events</text>
+  <rect x="636" y="102" width="114" height="26" rx="6" fill="#1e293b"/><text x="653" y="120" fill="#cbd5e1" font-size="12" font-family="Segoe UI, Arial">Attack Timeline</text>
+  <rect x="758" y="102" width="112" height="26" rx="6" fill="#1e293b"/><text x="777" y="120" fill="#cbd5e1" font-size="12" font-family="Segoe UI, Arial">Search Results</text>
+  <rect x="878" y="102" width="154" height="26" rx="6" fill="#1e293b"/><text x="895" y="120" fill="#cbd5e1" font-size="12" font-family="Segoe UI, Arial">Keyword Attack Story</text>
+  <rect x="1040" y="102" width="88" height="26" rx="6" fill="#1e293b"/><text x="1065" y="120" fill="#cbd5e1" font-size="12" font-family="Segoe UI, Arial">Raw Logs</text>
+
+  <rect x="340" y="148" width="446" height="246" rx="10" fill="#16263f"/>
+  <text x="356" y="176" fill="#93c5fd" font-size="16" font-family="Segoe UI, Arial">Overview Report</text>
+  <text x="356" y="206" fill="#cbd5e1" font-size="14" font-family="Segoe UI, Arial">Suspicious Events: 127</text>
+  <text x="356" y="232" fill="#cbd5e1" font-size="14" font-family="Segoe UI, Arial">Unique Source IP: 91</text>
+  <text x="356" y="258" fill="#cbd5e1" font-size="14" font-family="Segoe UI, Arial">MITRE Mapping Hits: 43</text>
+
+  <rect x="800" y="148" width="446" height="246" rx="10" fill="#16263f"/>
+  <text x="816" y="176" fill="#93c5fd" font-size="16" font-family="Segoe UI, Arial">High-Risk Events</text>
+  <text x="816" y="206" fill="#fca5a5" font-size="13" font-family="Segoe UI, Arial">2026-03-27 10:08 | 10.0.3.12 -> 185.72.5.90 | deny</text>
+  <text x="816" y="228" fill="#fca5a5" font-size="13" font-family="Segoe UI, Arial">2026-03-27 10:18 | admin login anomaly detected</text>
+
+  <rect x="340" y="406" width="906" height="280" rx="10" fill="#16263f"/>
+  <text x="356" y="434" fill="#93c5fd" font-size="16" font-family="Segoe UI, Arial">Attack Timeline</text>
+  <polyline points="372,646 470,590 560,610 670,530 760,548 870,494 980,518 1140,444" fill="none" stroke="#22d3ee" stroke-width="4"/>
+</svg>

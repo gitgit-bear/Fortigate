@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0b1220"/>
+  <rect x="18" y="18" width="1244" height="684" rx="14" fill="#111827" stroke="#334155"/>
+  <rect x="34" y="34" width="1212" height="44" rx="10" fill="#16263f"/>
+  <text x="50" y="62" fill="#e2e8f0" font-size="17" font-family="Segoe UI, Arial">Keyword Attack Story | Case: HKIR-2026-03-27</text>
+
+  <rect x="34" y="92" width="300" height="594" rx="10" fill="#17243a"/>
+  <text x="48" y="122" fill="#93c5fd" font-size="16" font-family="Segoe UI, Arial">Search Results</text>
+  <rect x="48" y="136" width="272" height="34" rx="6" fill="#0f172a" stroke="#334155"/>
+  <text x="58" y="158" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">keyword: powershell OR cmd.exe</text>
+  <text x="54" y="196" fill="#94a3b8" font-size="13" font-family="Segoe UI, Arial">10:08 suspicious auth failure</text>
+  <text x="54" y="220" fill="#94a3b8" font-size="13" font-family="Segoe UI, Arial">10:18 admin login anomaly</text>
+  <text x="54" y="244" fill="#94a3b8" font-size="13" font-family="Segoe UI, Arial">10:37 lateral movement indicator</text>
+
+  <rect x="350" y="92" width="896" height="594" rx="10" fill="#16263f"/>
+  <text x="368" y="124" fill="#67e8f9" font-size="20" font-family="Segoe UI, Arial">Keyword Attack Story</text>
+  <line x1="400" y1="168" x2="400" y2="618" stroke="#334155" stroke-width="3"/>
+  <circle cx="400" cy="200" r="8" fill="#22d3ee"/>
+  <text x="422" y="206" fill="#cbd5e1" font-size="16" font-family="Segoe UI, Arial">Initial access pattern from suspicious source IP</text>
+  <circle cx="400" cy="274" r="8" fill="#22d3ee"/>
+  <text x="422" y="280" fill="#cbd5e1" font-size="16" font-family="Segoe UI, Arial">Credential abuse attempt against privileged account</text>
+  <circle cx="400" cy="348" r="8" fill="#22d3ee"/>
+  <text x="422" y="354" fill="#cbd5e1" font-size="16" font-family="Segoe UI, Arial">Pivot to internal segment with repeated probe traffic</text>
+  <circle cx="400" cy="422" r="8" fill="#22d3ee"/>
+  <text x="422" y="428" fill="#cbd5e1" font-size="16" font-family="Segoe UI, Arial">Potential C2 beacon and staging activity identified</text>
+  <circle cx="400" cy="496" r="8" fill="#22d3ee"/>
+  <text x="422" y="502" fill="#cbd5e1" font-size="16" font-family="Segoe UI, Arial">Containment executed, evidence packaged for SOC handoff</text>
+
+  <rect x="862" y="534" width="366" height="132" rx="8" fill="#0f172a" stroke="#334155"/>
+  <text x="878" y="562" fill="#93c5fd" font-size="14" font-family="Segoe UI, Arial">Executive Summary</text>
+  <text x="878" y="586" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">- Impact: medium-high</text>
+  <text x="878" y="608" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">- Priority: immediate investigation</text>
+  <text x="878" y="630" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">- Next step: IOC pivot + endpoint triage</text>
+</svg>

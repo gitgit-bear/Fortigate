@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0a1020"/>
+  <rect x="20" y="20" width="1240" height="680" rx="14" fill="#111827" stroke="#334155"/>
+  <rect x="38" y="38" width="1204" height="46" rx="10" fill="#16263f"/>
+  <text x="54" y="67" fill="#e2e8f0" font-size="17" font-family="Segoe UI, Arial">IR Dashboard | Case Overview</text>
+
+  <rect x="38" y="98" width="220" height="110" rx="10" fill="#16263f"/><text x="54" y="134" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial">Total Incidents</text><text x="54" y="184" fill="#f8fafc" font-size="40" font-family="Segoe UI, Arial">24</text>
+  <rect x="270" y="98" width="220" height="110" rx="10" fill="#16263f"/><text x="286" y="134" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial">High-Risk Events</text><text x="286" y="184" fill="#f87171" font-size="40" font-family="Segoe UI, Arial">7</text>
+  <rect x="502" y="98" width="220" height="110" rx="10" fill="#16263f"/><text x="518" y="134" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial">IOC Hits</text><text x="518" y="184" fill="#67e8f9" font-size="40" font-family="Segoe UI, Arial">43</text>
+  <rect x="734" y="98" width="220" height="110" rx="10" fill="#16263f"/><text x="750" y="134" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial">Containment</text><text x="750" y="184" fill="#34d399" font-size="40" font-family="Segoe UI, Arial">92%</text>
+  <rect x="966" y="98" width="276" height="110" rx="10" fill="#16263f"/><text x="982" y="134" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial">Mean Time To Respond</text><text x="982" y="184" fill="#93c5fd" font-size="40" font-family="Segoe UI, Arial">3.1h</text>
+
+  <rect x="38" y="222" width="760" height="458" rx="10" fill="#16263f"/>
+  <text x="54" y="252" fill="#93c5fd" font-size="16" font-family="Segoe UI, Arial">Attack Timeline Trend</text>
+  <polyline points="66,648 164,594 256,616 356,538 450,558 560,500 670,522 784,438" fill="none" stroke="#22d3ee" stroke-width="5"/>
+
+  <rect x="812" y="222" width="430" height="220" rx="10" fill="#16263f"/>
+  <text x="828" y="252" fill="#93c5fd" font-size="16" font-family="Segoe UI, Arial">MITRE Mapping</text>
+  <text x="828" y="282" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">TA0001 Initial Access .......... 9</text>
+  <text x="828" y="306" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">TA0008 Lateral Movement ........ 7</text>
+  <text x="828" y="330" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">TA0011 C2 ...................... 5</text>
+  <text x="828" y="354" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">TA0010 Exfiltration ............ 3</text>
+
+  <rect x="812" y="458" width="430" height="222" rx="10" fill="#16263f"/>
+  <text x="828" y="488" fill="#93c5fd" font-size="16" font-family="Segoe UI, Arial">Executive / Technical Dual View</text>
+  <text x="828" y="516" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">- Executive: risk, impact, recommended actions</text>
+  <text x="828" y="540" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">- Technical: IOC chain, src/dst pivots, evidence links</text>
+</svg>

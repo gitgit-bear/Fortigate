@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  background-color: #020617;
+  color: #f1f5f9;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseSoft {
+  0%,
+  100% {
+    box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.22), 0 8px 40px rgba(34, 211, 238, 0.12);
+  }
+  50% {
+    box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.35), 0 10px 50px rgba(34, 211, 238, 0.2);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 0.7s ease-out both;
+}
+
+.fade-delay-1 {
+  animation-delay: 0.08s;
+}
+
+.fade-delay-2 {
+  animation-delay: 0.16s;
+}
+
+.fade-delay-3 {
+  animation-delay: 0.24s;
+}
+
+.glow-pulse {
+  animation: pulseSoft 3.2s ease-in-out infinite;
+}
+
+@layer components {
+  .section-shell {
+    @apply mx-auto max-w-7xl px-6 py-16 md:px-10;
+  }
+
+  .panel-card {
+    @apply rounded-2xl border border-slate-800 bg-slate-900/60;
+  }
+
+  .feature-card {
+    @apply rounded-xl border border-slate-800 bg-slate-900/60 p-5 transition duration-300;
+  }
+
+  .feature-card:hover {
+    @apply -translate-y-1 border-cyan-400/40;
+    box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.25),
+      0 8px 40px rgba(34, 211, 238, 0.12);
+  }
+
+  .btn-primary {
+    @apply rounded-lg bg-cyan-400 px-6 py-3 font-semibold text-slate-950 transition hover:bg-cyan-300;
+    box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.25),
+      0 8px 40px rgba(34, 211, 238, 0.12);
+  }
+
+  .btn-secondary {
+    @apply rounded-lg border border-slate-600 px-6 py-3 font-semibold text-white transition hover:border-slate-400;
+  }
+
+  .chip {
+    @apply rounded-full border border-cyan-300/30 bg-cyan-300/10 px-3 py-1 text-xs font-medium tracking-wide text-cyan-200;
+  }
+
+  .screenshot-frame {
+    @apply rounded-xl border border-slate-700 bg-slate-950/40;
+  }
+}
+
+.shadow-glow {
+  box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.25),
+    0 8px 40px rgba(34, 211, 238, 0.12);
+}

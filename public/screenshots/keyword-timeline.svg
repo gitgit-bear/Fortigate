@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0b1220"/>
+  <rect x="18" y="18" width="1244" height="684" rx="14" fill="#111827" stroke="#334155"/>
+  <rect x="34" y="34" width="1212" height="44" rx="10" fill="#16263f"/>
+  <text x="50" y="62" fill="#e2e8f0" font-size="17" font-family="Segoe UI, Arial">Attack Timeline / Keyword Timeline Investigation</text>
+
+  <rect x="34" y="92" width="1212" height="64" rx="10" fill="#16263f"/>
+  <text x="52" y="130" fill="#cbd5e1" font-size="14" font-family="Segoe UI, Arial">Filter: keyword=powershell | src=10.0.3.12 | dst=185.72.5.90 | Page=1 | Rows=1000</text>
+
+  <rect x="34" y="170" width="1212" height="516" rx="10" fill="#16263f"/>
+  <rect x="52" y="188" width="1176" height="32" rx="6" fill="#0f172a" stroke="#334155"/>
+  <text x="68" y="209" fill="#93c5fd" font-size="13" font-family="Segoe UI, Arial">Timestamp</text>
+  <text x="220" y="209" fill="#93c5fd" font-size="13" font-family="Segoe UI, Arial">Event</text>
+  <text x="600" y="209" fill="#93c5fd" font-size="13" font-family="Segoe UI, Arial">Detail</text>
+  <text x="1060" y="209" fill="#93c5fd" font-size="13" font-family="Segoe UI, Arial">Risk</text>
+
+  <line x1="52" y1="246" x2="1228" y2="246" stroke="#334155"/>
+  <text x="68" y="240" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">2026-03-27 09:41:12</text>
+  <text x="220" y="240" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">Suspicious auth failure burst</text>
+  <text x="600" y="240" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">username=admin src=10.0.3.12</text>
+  <text x="1060" y="240" fill="#f87171" font-size="13" font-family="Segoe UI, Arial">high</text>
+
+  <line x1="52" y1="280" x2="1228" y2="280" stroke="#334155"/>
+  <text x="68" y="274" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">2026-03-27 10:08:05</text>
+  <text x="220" y="274" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">Command execution pattern</text>
+  <text x="600" y="274" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">keyword match: powershell -enc</text>
+  <text x="1060" y="274" fill="#fbbf24" font-size="13" font-family="Segoe UI, Arial">med</text>
+
+  <line x1="52" y1="314" x2="1228" y2="314" stroke="#334155"/>
+  <text x="68" y="308" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">2026-03-27 10:37:19</text>
+  <text x="220" y="308" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">Lateral movement indicator</text>
+  <text x="600" y="308" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial">dst=10.0.9.44 service=SMB</text>
+  <text x="1060" y="308" fill="#f87171" font-size="13" font-family="Segoe UI, Arial">high</text>
+
+  <polyline points="90,650 240,620 410,632 560,590 720,602 860,548 1020,562 1180,510" fill="none" stroke="#22d3ee" stroke-width="4"/>
+</svg>
